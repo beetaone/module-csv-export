@@ -4,14 +4,14 @@
 | --------- | --------------------------------------------------------------------------- |
 | Name      | CSV Export                                                                  |
 | Version   | v2.0.0                                                                      |
-| DockerHub | [weevenetwork/csv-export](https://hub.docker.com/r/weevenetwork/csv-export) |
+| DockerHub | [beetaone/csv-export](https://hub.docker.com/r/beetaone/csv-export) |
 | Authors   | Mesud Pasic                                                                 |
 
 - [csv-export](#csv-export)
   - [Description](#description)
   - [Environment Variables](#environment-variables)
     - [Module Specific](#module-specific)
-    - [Set by the weeve Agent on the edge-node](#set-by-the-weeve-agent-on-the-edge-node)
+    - [Set by the beetaone Agent on the edge-node](#set-by-the-beetaone-agent-on-the-edge-node)
 - [Example payload](#example-payload)
   - [Dependencies](#dependencies)
 
@@ -32,7 +32,7 @@ Module collects incoming data and stores it to CSV named by filename variable an
 | SPLIT_SIZE            | integer | Number of rows or bytes to split by                                    |
 | INCLUDE_TIMESTAMP     | bool    | True or false to include timestamp column if not available in the data |
 
-### Set by the weeve Agent on the edge-node
+### Set by the beetaone Agent on the edge-node
 
 | Environment Variables | type   | Description                                    |
 | --------------------- | ------ | ---------------------------------------------- |
